@@ -6,7 +6,6 @@ target/
 
 #/src/main/resources/keys/*.jks
 #/src/main/resources/keys/*.pem
-/src/main/resources/application.properties
 
 ### STS ###
 .apt_generated
@@ -36,3 +35,9 @@ build/
 ### VS Code ###
 .vscode/
 /.apt_generated_tests/
+
+.env
+.env.local
+.env.*.local
+
+/src/main/resources/properties
